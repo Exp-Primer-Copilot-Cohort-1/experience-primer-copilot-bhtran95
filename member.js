@@ -1,3 +1,6 @@
-function skillsmember() {
-  console.log("I am a member");
+function skillsMember() {
+  return {
+    name: 'John',
+    skills: ['JavaScript', 'React', 'Node']
+  }
 }
